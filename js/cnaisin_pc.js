@@ -151,7 +151,6 @@ var swiper = new Swiper('.swiper-container', {
                     })
                 },3500);
                 break;
-                window.addEventListener('load', init(60));
             case 3:
                 setTimeout(function(){
                     $(".four_banner").css({
