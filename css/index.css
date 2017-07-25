@@ -225,12 +225,17 @@ h1 {
   top: 55%;
   transform: translate(-50%, -50%);
 }
+.innerbox .center {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-52%);
+}
 .one {
   background-color: #EF494D;
   box-sizing: border-box;
 }
 .one h1 {
-  margin-top: 220px;
   font-size: 46px;
   font-weight: 400 !important;
   font-family: '微软雅黑';
@@ -247,8 +252,9 @@ h1 {
   height: 600px;
   width: 500px;
   position: absolute;
-  top: 170px;
-  right: -100px;
+  top: 0;
+  right: -85px;
+  transform: translateY(-13%);
 }
 .one .onebox .one_banner {
   width: 70%;
@@ -415,7 +421,6 @@ h1 {
 .two .twobox {
   width: 500px;
   height: 500px;
-  margin-top: 230px;
   position: relative;
 }
 .two .twobox .two_banner {
@@ -540,7 +545,6 @@ h1 {
   animation-name: jumps;
 }
 .three .box {
-  margin-top: 200px;
   padding-right: 20px;
 }
 .three .box h1 {
@@ -577,7 +581,7 @@ h1 {
   width: 500px;
   height: 500px;
   position: absolute;
-  margin-top: 150px;
+  margin-top: -4%;
   right: 0;
 }
 .three .threebox .teamlogo {
@@ -704,7 +708,6 @@ h1 {
 .four .fourbox {
   width: 500px;
   height: 500px;
-  margin-top: 230px;
   position: relative;
 }
 .four .fourbox .four_banner {
@@ -734,7 +737,7 @@ h1 {
   transform: perspective(10px);
 }
 .four .box {
-  margin-top: -550px;
+  margin-top: -520px;
   padding-right: 20px;
 }
 .four .box h1 {
@@ -771,8 +774,8 @@ h1 {
   width: 500px;
   height: 500px;
   position: absolute;
-  margin-top: 150px;
-  right: 0;
+  margin-top: -150px;
+  right: 15px;
 }
 .five .fivebox p {
   width: 74px;
@@ -819,7 +822,6 @@ h1 {
   transform: perspective(10px);
 }
 .five .box {
-  margin-top: 200px;
   padding-right: 20px;
 }
 .five .box h1 {
@@ -860,16 +862,17 @@ h1 {
 }
 .six_bg .six .six_banner {
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 20px;
   border-radius: 18px;
   width: 90px;
   height: 90px;
 }
 .six_bg .six h1 {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .six_bg .six ul {
   justify-content: center !important;
+  margin-top: 50px !important;
 }
 .six_bg .six ul li:nth-child(2) {
   margin-left: 60px;
@@ -883,7 +886,7 @@ h1 {
 }
 .six_bg .six .foot {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #a4a4aa;
 }
 .six_bg .six .foot span {
